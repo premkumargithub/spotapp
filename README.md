@@ -10,14 +10,23 @@ Spot Application is a where Spot helps authorized personnel to look at employees
 
 The url endpoints are defined on files inside the app.js 
 
+	app.js
+
 ## *index.html* 
 This file responsible for managing the app in the single page and rendering the view dynamically.
 
 ## *gulpfile*  
+This is the file here all the project replated taska are defined like 
+	1. Run the test cases 
+	2. Run the jshint process
+	3. Minify the js 
+	4. Create the documentation for the code
 
-**/routes** folder contains modules where all the routes exposed by the API server are defined. Each route define a path (e.g. '/artists'), an HTTP method (e.g. 'GET'), an handler which receives the request's parameters or payload, that is often used to call a controller action (see /controllers directory) and a validation function possibly used to validate data received by an HTTP request, like PUT or POST
+## *cotnrollers* 
+This is the controller folder which contains the controllers for the application.
 
-**/controllers** contains the controllers that typically make DB queries and return the result to the client in JSON format
+## *views* 
+This is the views folder which contains all the html files whiched rendered dynamically into the single page application.
 
 ## Requirements
 	1. NodeJs installed (For installing project dependecies)
