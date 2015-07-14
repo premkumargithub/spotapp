@@ -1,2 +1,21 @@
-List
-{{employees}}
+<div class="employee-list">
+	<input class="search-box" type="text" ng-model="search.name" title="Search Employee" placeholder="Search employee"/>
+<ul>
+<li data-ng-repeat="employee in employees | filter:search" >
+	<div class="info" title="Click to see details">
+		Table {{$index+1}}
+		<div>
+		<div class="name"> 
+			<span class="one"><img src="assets/images/user.png" alt=""/></span>
+			<span class="two">{{employee.name}} </span></div>
+		<div class="designation"> {{employee.designation}} </div>
+		<div class="lable"> Team </div>
+		<div class="team"> {{employee.team}} </div>
+		<div class="lable"> Current project </div>
+		<div class="project"> {{employee.project}} </div>
+	</div>
+	</div>
+</li>
+</ul>	
+<script type="text/javascript"></script>
+</div>

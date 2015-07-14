@@ -1,0 +1,101 @@
+body{
+	background-color: #D8D8D8;
+	margin: 0 auto;
+}
+.container {
+	background-color: #D8D8D8;
+	height: 100%;
+	margin: auto;
+}
+
+.hedaer-devider {
+	background-color: #fff;
+	height: 20px;
+	float: left;
+	width: 100%;
+	padding: 10px;
+	margin: 10px 0;
+}
+.container .header {
+	float: left;
+	width: 100%;
+	height: 100px;
+}
+
+.logo {
+	width: 30%;
+	float: left;
+	text-align: center;
+	padding: 40px;
+}
+
+.text {
+	font-size: 30px;
+	padding: 30px;
+	border-radius: 100px;
+	background-color: gray;
+	color: #ffffff;
+}
+
+.title {
+	padding: 30px;
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+.footer {
+	background-color: #fff;
+}
+
+.search-box {
+	padding: 10px;
+	width: 300px;
+	float: right;
+	margin-right: 20px;
+}
+
+ul {
+	width: 100%;
+	float: left;
+}
+
+ul li {
+	padding: 20px;
+	width: 30%;
+	float: left;
+	list-style: none;
+}
+
+/*.info {
+	width: 100px;
+	height: 100px;
+	border: 1px solid;
+	float: left;
+	cursor: pointer;
+}*/
+.designation, .lable {
+	font-weight: bold;
+}
+
+img {
+	background-size: 32px 32px;
+	-webkit-border-radius: 50%;
+	/* border-radius: 50%; */
+	display: block;
+	margin: -1px;
+	height: 32px;
+	width: 32px;
+}
+
+.name {
+	width: 100%;
+	float: left;
+}
+
+.name .one{
+	float: left;
+}
+
+.name .two{
+	margin-left: 20px;
+}

@@ -1,23 +1,94 @@
-return [
-	{
-    "name": "Shilpy Sharma",
-    "designation": "Sr. developer",
-    "team": "Android",
-    "project": "Dell App Design",
-    "location": {
+[
+    {
+        "name": "Shilpy Sharma",
+        "designation": "Sr. developer",
+        "team": "Android",
+        "project": "Dell App Design",
+        "location": {
         "row": "2",
         "column": "3"
     }
-    
-	},
-	{
-    "name": "Prem Baboo",
-    "designation": "Sr. developer",
-    "team": "Android",
-    "project": "Dell App Design",
-    "location": {
+    },
+
+    {
+        "name": "Prem Baboo",
+        "designation": "Sr. developer",
+        "team": "Android",
+        "project": "Dell App Design",
+        "location": {
         "row": "2",
         "column": "3"
     }
-	}
-];
+    },
+    {
+        "name": "Prem Baboo",
+        "designation": "Sr. developer",
+        "team": "Android",
+        "project": "Dell App Design",
+        "location": {
+        "row": "2",
+        "column": "3"
+    }
+    },
+    {
+        "name": "Bhawna Raheja",
+        "designation": "Associate IT",
+        "team": "Android",
+        "project": "whosecrew",
+        "location": {
+        "row": "4",
+        "column": "2"
+    }
+    },
+    {
+        "name": "Yogendra Singh",
+        "designation": "Sr. developer",
+        "team": "php",
+        "project": "sixthcontinent",
+        "location": {
+        "row": "2",
+        "column": "2"
+    }
+    },
+    {
+        "name": "Laxman Singh",
+        "designation": "Sr. developer",
+        "team": ".Net",
+        "project": "Maydan qatar",
+        "location": {
+        "row": "1",
+        "column": "2"
+    }
+    },
+    {
+        "name": "Abhishek gupta",
+        "designation": "Sr. developer",
+        "team": "php",
+        "project": "sixthcontinent",
+        "location": {
+        "row": "2",
+        "column": "1"
+    }
+    },
+    {
+        "name": "Nidhi gupta",
+        "designation": "Manager IT",
+        "team": "Js",
+        "project": "sixthcontinent",
+        "location": {
+        "row": "2",
+        "column": "3"
+    }
+    },
+    {
+        "name": "Deepak kumar",
+        "designation": "Sr. developer",
+        "team": "js",
+        "project": "sixthcontinent",
+        "location": {
+        "row": "1",
+        "column": "3"
+    }
+    }
+
+]
